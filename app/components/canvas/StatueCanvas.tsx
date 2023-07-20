@@ -2,8 +2,6 @@ import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-import CanvasLoader from "../Loader";
-
 const Computers = () => {
 	const computer = useGLTF("./xenophon/scene.gltf");
 
@@ -37,7 +35,7 @@ const ComputersCanvas = () => {
 			dpr={[1, 2]}
 			camera={{ position: [20, 3, 5], fov: 60 }}
 			gl={{ preserveDrawingBuffer: true }}>
-			<Suspense fallback={<CanvasLoader />}>
+			<Suspense fallback={null}>
 				<OrbitControls
 					autoRotate
 					enableZoom={false}

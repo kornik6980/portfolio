@@ -10,7 +10,7 @@ Welcome to this repository, a personal portfolio project built using Next.js and
 
 ## Introduction
 
-Portfolio v1.1 is a web application that presents my portfolio and highlights my achievements, projects, and skills. It incorporates advanced 3D visuals using React Three Fiber and Framer Motion to create an engaging and immersive user experience.
+This project is a web application that presents my portfolio and highlights my projects and skills. It incorporates advanced 3D visuals using React Three Fiber and Framer Motion to create an engaging and immersive user experience.
 
 ## Features
 
