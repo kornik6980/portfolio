@@ -48,10 +48,9 @@ function Info({}: Props) {
 					Używając moich pasji i umiejętności, zajmuję się tworzeniem stron
 					internetowych od implementacji wszystkich funcjonalności, aż po
 					tworzenie UI. Praca nad projekatmi daje mi dużo satysfakcji i
-					spełnienia, wynikających z nieustannego rozwoju. Liczę na możliwość
-					dalszego rozwoju w tym kierunku pod kątem profesjonalnym. Kiedy nie
-					jestem przyklejony do komputera lubię aktywnie spędzać czas, gotować
-					albo czytać o filozofii i psychologii.
+					spełnienia. Szukam możliwości dalszego rozwoju swoich umiejętności.
+					Kiedy nie jestem przyklejony do komputera lubię aktywnie spędzać czas,
+					gotować albo czytać o filozofii i psychologii.
 				</motion.p>
 			</div>
 			<StatueCanvas />
