@@ -1,13 +1,13 @@
-import React, { Suspense, useEffect, useState } from "react";
+import React, { Suspense } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 
-const Computers = () => {
-	const computer = useGLTF("./xenophon/scene.gltf");
+const Statue = () => {
+	const statue = useGLTF("./xenophon/scene.gltf");
 
 	return (
 		<mesh>
-			<hemisphereLight intensity={0.25} groundColor="black" />
+			<hemisphereLight intensity={0.65} groundColor="black" />
 			<spotLight
 				position={[-5, 50, 10]}
 				angle={0.12}
@@ -16,9 +16,8 @@ const Computers = () => {
 				castShadow
 				shadow-mapSize={1024}
 			/>
-			<pointLight intensity={1} />
 			<primitive
-				object={computer.scene}
+				object={statue.scene}
 				scale={0.8}
 				position={[0, -6, -1.5]}
 				rotation={[-0.01, -0.2, -0.1]}
@@ -27,7 +26,7 @@ const Computers = () => {
 	);
 };
 
-const ComputersCanvas = () => {
+const StatueCanvas = () => {
 	return (
 		<Canvas
 			frameloop="demand"
@@ -43,11 +42,11 @@ const ComputersCanvas = () => {
 					maxPolarAngle={Math.PI / 2}
 					minPolarAngle={Math.PI / 2}
 				/>
-				<Computers />
+				<Statue />
 			</Suspense>
 			<Preload all />
 		</Canvas>
 	);
 };
 
-export default ComputersCanvas;
+export default StatueCanvas;

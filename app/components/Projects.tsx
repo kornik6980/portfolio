@@ -26,7 +26,7 @@ const Projects = (props: Props) => {
 		},
 		{
 			title: "Social media app",
-			imageSrc: "./socio.jpg",
+			imageSrc: "./socio.webp",
 			github: "https://github.com/kornik6980/sociphobia",
 		},
 		{
