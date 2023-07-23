@@ -7,7 +7,7 @@ const Statue = () => {
 
 	return (
 		<mesh>
-			<hemisphereLight intensity={0.65} groundColor="black" />
+			<hemisphereLight intensity={1} groundColor="black" />
 			<spotLight
 				position={[-5, 50, 10]}
 				angle={0.12}
