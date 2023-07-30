@@ -25,6 +25,12 @@ const Projects = (props: Props) => {
 			demo: "https://tinder-clone-coral.vercel.app",
 		},
 		{
+			title: "Spotify Clone",
+			imageSrc: "./spotify-clone.png",
+			github: "https://github.com/kornik6980/spotify",
+			demo: "https://spotify-clone-zeta-rose.vercel.app",
+		},
+		{
 			title: "Social media app",
 			imageSrc: "./socio.webp",
 			github: "https://github.com/kornik6980/sociphobia",
@@ -39,13 +45,15 @@ const Projects = (props: Props) => {
 	return (
 		<div
 			ref={targetRef}
-			className="relative flex items-start justify-center flex-col max-w-full pt-60 pb-20 z-0 gap-10 mx-10">
+			className="relative flex items-start justify-center flex-col max-w-full pt-60 pb-20 z-0 gap-10 mx-10"
+		>
 			<motion.div
 				initial={{ opacity: 0, rotate: 10, y: 150 }}
 				whileInView={{ opacity: 1, rotate: 0, y: 0 }}
 				transition={{ duration: 0.3, delay: 0.2 }}
 				viewport={{ once: true }}
-				className="flex flex-row items-center gap-3">
+				className="flex flex-row items-center gap-3"
+			>
 				<motion.img
 					style={{ rotate: rotateStar }}
 					src="/star.png"
