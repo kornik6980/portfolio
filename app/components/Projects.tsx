@@ -26,7 +26,7 @@ const Projects = (props: Props) => {
 		},
 		{
 			title: "Spotify Clone",
-			imageSrc: "./spotify-clone.png",
+			imageSrc: "./spotify-clone.jpg",
 			github: "https://github.com/kornik6980/spotify",
 			demo: "https://spotify-clone-zeta-rose.vercel.app",
 		},
