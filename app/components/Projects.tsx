@@ -19,16 +19,16 @@ const Projects = (props: Props) => {
 
 	const projects = [
 		{
-			title: "Tinder Clone",
-			imageSrc: "./tinder-clone.webp",
-			github: "https://github.com/kornik6980/tinder",
-			demo: "https://tinder-clone-coral.vercel.app",
-		},
-		{
 			title: "Spotify Clone",
 			imageSrc: "./spotify-clone.jpg",
 			github: "https://github.com/kornik6980/spotify",
 			demo: "https://spotify-clone-zeta-rose.vercel.app",
+		},
+		{
+			title: "Tinder Clone",
+			imageSrc: "./tinder-clone.webp",
+			github: "https://github.com/kornik6980/tinder",
+			demo: "https://tinder-clone-coral.vercel.app",
 		},
 		{
 			title: "Social media app",
