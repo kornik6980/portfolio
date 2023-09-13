@@ -20,25 +20,20 @@ const Projects = (props: Props) => {
 	const projects = [
 		{
 			title: "Spotify Clone",
-			imageSrc: "./spotify-clone.jpg",
+			imageSrc: "./spotify.webp",
 			github: "https://github.com/kornik6980/spotify",
 			demo: "https://spotify-clone-zeta-rose.vercel.app",
 		},
 		{
-			title: "Tinder Clone",
-			imageSrc: "./tinder-clone.webp",
-			github: "https://github.com/kornik6980/tinder",
-			demo: "https://tinder-clone-coral.vercel.app",
+			title: "NotiHub",
+			imageSrc: "./notihub.webp",
+			github: "https://github.com/kornik6980/notihub",
+			demo: "https://notihub.vercel.app",
 		},
 		{
-			title: "Social media app",
-			imageSrc: "./socio.webp",
-			github: "https://github.com/kornik6980/sociphobia",
-		},
-		{
-			title: "Portfolio",
+			title: "Więcej",
 			imageSrc: "./dos.webp",
-			github: "https://github.com/kornik6980/portfolio",
+			github: "https://github.com/kornik6980?tab=repositories",
 		},
 	];
 
